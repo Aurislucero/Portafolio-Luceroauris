@@ -666,11 +666,11 @@ li {
 }
 
 
-@media (min-width : 768px) and (max-width: 991px) {
+@media (min-width : 300px) and (max-width: 991px) {
     
     #main-slide .slider-content h1{
 		font-size: 35px;
-        margin-bottom: 10px;
+        margin-bottom: 5px;
         margin-top: 0;
 	}
 	#main-slide .slider-content p{
@@ -685,13 +685,17 @@ li {
 		font-size: 16px;
 	}
     
-    #main-slide .item {
+    /* #main-slide .item {
         height: 550px;
-    }
+    } */
+    #main-slide .item {
+        height: 500px;
+         /* esto es la sep del nav y mi perfil */
+     }
     
 }
 
-
+/* 
 @media (max-width : 767px) {
     
     #main-slide .slider-content h1{
@@ -720,20 +724,21 @@ li {
         height: 400px;
     }
     
-}
+} */
 
-
-@media (max-width : 479px) {
+/* 
+@media (max-width : 250px) {
     
     #main-slide .item .slider-content{
 		display: none;
 	}
     
     #main-slide .item {
-        height: 180px;
-    }
+        height: 100px;
+         /* esto es la sep del nav y mi perfil */
+    /* }
     
-}
+} */ 
 
 
 
@@ -2004,4 +2009,7 @@ iframe {
       }
 }
 
-
+/* esto es el footer */
+.foot{
+    color: #ffffff;
+}
