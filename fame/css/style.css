@@ -666,11 +666,11 @@ li {
 }
 
 
-@media (min-width : 300px) and (max-width: 991px) {
+@media (min-width : 768px) and (max-width: 991px) {
     
     #main-slide .slider-content h1{
 		font-size: 35px;
-        margin-bottom: 5px;
+        margin-bottom: 10px;
         margin-top: 0;
 	}
 	#main-slide .slider-content p{
@@ -685,17 +685,13 @@ li {
 		font-size: 16px;
 	}
     
-    /* #main-slide .item {
-        height: 550px;
-    } */
     #main-slide .item {
-        height: 500px;
-         /* esto es la sep del nav y mi perfil */
-     }
+        height: 550px;
+    }
     
 }
 
-/* 
+
 @media (max-width : 767px) {
     
     #main-slide .slider-content h1{
@@ -704,7 +700,7 @@ li {
 		margin-bottom: 0;
 	}
 	#main-slide .slider-content p{
-		font-size: 14px;
+		font-size: 15px;
 		margin-top: 5px;
 	}
 	.slider.btn{
@@ -713,32 +709,40 @@ li {
 		font-size: 12px;
 	}
 	#main-slide .carousel-indicators{
-		display: none;
+        display: none;
+        /* los dos puntitos */
 	}
     
-    #main-slide .item .slider-content{
+    /* #main-slide .item .slider-content{
 		display: none;
-	}
+	} */
     
     #main-slide .item {
-        height: 400px;
+        height: 300px;
     }
     
-} */
+}
 
-/* 
-@media (max-width : 250px) {
+
+@media (max-width : 200px) {
+    #main-slide .slider-content h1{
+        font-size: 50px;
+        font-weight: 700;
+        line-height: 60px;
+        letter-spacing: 5px;
+        margin-bottom: 55px;
+        color: #fff;
+        font-family: 'Oswald', sans-serif;
+    }
     
-    #main-slide .item .slider-content{
+    /* #main-slide .item {
+        height: 180px;
+    } */
+    #main-slide .carousel-indicators{
 		display: none;
 	}
     
-    #main-slide .item {
-        height: 100px;
-         /* esto es la sep del nav y mi perfil */
-    /* }
-    
-} */ 
+}
 
 
 
@@ -2011,5 +2015,5 @@ iframe {
 
 /* esto es el footer */
 .foot{
-    color: #ffffff;
+    color: #fff;
 }
