@@ -10,7 +10,7 @@ a:hover,
 a:focus,
 a:active,
 a.active {
-    color: #ea321e;
+    color: #FED136;
     text-decoration: none;
 }
 
@@ -24,7 +24,7 @@ a.active {
 .btn-primary:active,
 .btn-primary.active,
 .open .dropdown-toggle.btn-primary {
-    border-color: #ea321e;
+    border-color: #FED136;
 }
 
 .btn-primary.disabled,
@@ -60,8 +60,8 @@ fieldset[disabled] .btn-primary.active {
 .btn-xl:active,
 .btn-xl.active,
 .open .dropdown-toggle.btn-xl {
-    border-color: #ea321e;
-    background-color: #ea321e;
+    border-color: #FED136;
+    background-color: #FED136;
 }
 
 .btn-xl.disabled,
