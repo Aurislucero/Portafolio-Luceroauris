@@ -117,6 +117,7 @@ li {
 /* Start Top Navbar Section                           */
 /*------------------------------------------------*/
 
+
 .navbar-default {
     border-color: transparent;
     background-color: #222;
@@ -1173,8 +1174,100 @@ and (min-width : 551px){
 /*-------------------------------------------------*/
 /* Start Latest News Section                       */
 /*-------------------------------------------------*/
+.imageresp{
+    width: 400px;
+    height: auto;
+    margin: auto;
+    display: block;
+}
+@media only screen 
+and (max-width : 375px) {
+    .imageresp{
+        width: 300px;
+    }
+.contenedorsobremi{
+width: 95%;
+margin: auto;
+overflow: hidden;
+    }
+.contenedorsobremi ul{
+    display: flex;
+    padding: 0;
+    width: 400%;
+    animation: cambio 20s infinite alternate;
+    padding: 5px 5px;
+} 
+.contenedorsobremi li{
+    width: 100%;
+    list-style: none;
+}   
+.contenedorsobremi .columnasx3 {
+    width: 75%;  
+}  
+@keyframes cambio{
+    0%{margin-left: 0;}
+    30%{margin-left: 0;}
+    35%{margin-left: -130%;}
+    65%{margin-left: -130%;}
+    70%{margin-left: -260%;}
+    100%{margin-left: -260%;}
+}     
+  }
+
+@media only screen 
+and (max-width : 755px) {
+    .imageresp{
+        width: 400px;
+    }
+.contenedorsobremi{
+width: 95%;
+margin: auto;
+overflow: hidden;
+    }
+.contenedorsobremi ul{
+    display: flex;
+    padding: 0;
+    width: 400%;
+    animation: cambio 20s infinite alternate;
+    padding: 5px 5px;
+} 
+.contenedorsobremi li{
+    width: 100%;
+    list-style: none;
+}   
+.contenedorsobremi .columnasx3 {
+    width: 75%;  
+}  
+@keyframes cambio{
+    0%{margin-left: 0;}
+    30%{margin-left: 0;}
+    35%{margin-left: -130%;}
+    65%{margin-left: -130%;}
+    70%{margin-left: -270%;}
+    100%{margin-left: -270%;}
+}  
+.columnasx3{
+    font-weight: 300;
+    font-size: 40px;   
+}
+ 
+  }
 
 
+.columnasx3{
+    width: 33.33%;
+    float: left;
+    padding: 20px 20px;
+    box-sizing: border-box;
+    margin: auto;
+    color: #999;
+    font-weight: 300;
+}
+.columnx3 p{
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;    
+
+}
 .latest-news-section {
     padding-top: 80px;
     padding-bottom: 60px;
@@ -1189,7 +1282,7 @@ and (min-width : 551px){
     padding-bottom: 5px;
 }
 
-.latest-post .post-details .date {
+.columnasx3 .latest-post .post-details .date {
     position: absolute;
     top: 0;
     left: 10%;
@@ -1218,13 +1311,8 @@ and (min-width : 551px){
     padding-right: 5px;
 }
 
-.latest-post p {
-    padding-bottom: 15px;
-    color: #999;
-    font-weight: 300;
-}
 
-.latest-post .btn-primary {
+ .latest-post .btn-primary {
     border-radius: 2px;
     -webkit-border-radius: 2px;
     -moz-border-radius: 2px;
