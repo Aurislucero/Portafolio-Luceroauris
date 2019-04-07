@@ -1196,11 +1196,14 @@ and (min-width : 551px){
 }
 
 
-
+.link{
+    color:rgb(56, 54, 54);
+    text-decoration:underline ;
+}
 
 .columnasx3{
    
-    color: #999;
+    color: rgb(105, 102, 102);
     
     /* font-size: 16px;   */
 }
