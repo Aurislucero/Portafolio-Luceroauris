@@ -1197,6 +1197,8 @@ and (min-width : 551px){
     height: auto;
     margin: auto;
     display: block;
+    /* width:550px ;
+    height:400px; */
 }
 .imagerespo{
     width: 350px;
